@@ -20,8 +20,8 @@ SNMP_PORT = 161
 API_HOST = "0.0.0.0"
 API_PORT = 8000
 CORS_ORIGINS = [
-    "http://localhost:5174",   # Vite dev server
+    "http://localhost:5174",
     "http://localhost:3000",
     "http://127.0.0.1:5174",
-    "http://127.0.0.1:3000",
+    "http://192.168.13.221:5174",
 ]
