@@ -1,0 +1,23 @@
+# Frontend
+frontend/node_modules/
+frontend/dist/
+frontend/.env
+frontend/.env.local
+frontend/.env.*.local
+frontend/npm-debug.log*
+
+# Backend
+backend/network_monitor.db
+backend/network_monitor.db-journal
+backend/network_monitor.db-wal
+backend/network_monitor.db-shm
+backend/__pycache__/
+backend/*.py[cod]
+backend/*$py.class
+backend/.env
+backend/venv/
+backend/env/
+
+# OS Files
+.DS_Store
+Thumbs.db
